@@ -1,0 +1,23 @@
+#container {
+    width: 700px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+#header{
+    width: 500px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+#main{
+    width: 800px;
+    height: 200px;
+    background-color:azure;
+}
+
+#footer{
+    width: 150px;
+    height: 200px;
+    background-color: coral;
+}
