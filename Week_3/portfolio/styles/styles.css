@@ -48,7 +48,7 @@ h1{
     text-align: center;
 }
 
-p {
+p, li, a {
     font-size: 36px;
     font-family:"Arial", sans-serif; 
     color: darkblue;
@@ -59,6 +59,14 @@ a {
     font-size: 36px;
     font-family:"Arial", sans-serif; 
     color: darkblue;
+}
+/* Text Style END*/
+
+/*Image Styles START*/
+
+#intro-image {
+    width: 500px;
+    text-align: 0 center;
 }
 
 a:link {
