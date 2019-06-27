@@ -1,7 +1,19 @@
+
+
+
+
+/*
+selector {
+        property: value;
+        property: value;
+    ...
+    */
+
 body {
     background-color:darksalmon;
     background-image: url("../images/bg.jpg");
     background-size: cover;
+    opacity: .75;
 }
 
 header {
@@ -65,9 +77,21 @@ a {
 /*Image Styles START*/
 
 #intro-image {
-    width: 500px;
+    /*width: 500px;*/
     text-align: 0 center;
 }
+
+#intro-image, img {
+    width: 500px;
+    border-radius:900px;
+    }
+
+
+#intro-image #cup {
+    border-radius: 50%;
+    opacity: .25;
+}
+
 
 a:link {
     color: pink;
@@ -87,7 +111,16 @@ a:active {
 
 
 li{
-    font-size: 36px;
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    border: solid #00ffeb 1px;
+    border-radius: 5px;
+    
+    
+    
+    
+    /*font-size: 36px;
     font-family:"Arial", sans-serif;
-    color:darkblue;
+    color:darkblue;*/
 }
