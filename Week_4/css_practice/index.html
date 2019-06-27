@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+
+    
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Practice</title>
+    
+    
+    <!-- CSS INTERNAL STYLESHEET -->
+    <style>
+        
+            body {
+                background-image: url("images/coffee.jpg");
+                background-size: cover;
+                border: solid red 1px; 
+                
+            }
+
+            #playground {
+                width: 600px;
+                height: 600px;
+                border: solid black 5px;
+                background-color: beige;
+                margin: 0 auto;
+                position: relative;
+                
+            }
+                
+        
+            #green {
+                    border: 5px solid green;
+                    background-color: lightgreen;
+                    /*border-radius: 5px;*/
+                    width: 200px;
+                    height: 200px;
+                    position:relative;     
+                    left: 200px;
+                    top: 250px;
+                    box-sizing:border-box;
+                    z-index: 500;
+            }
+     
+            #blue {
+                   border: 5px solid blue;
+                   background-color: skyblue;
+                   /*border-radius: 5px;*/
+                   width: 200px;   
+                   height: 200px;
+                   position: relative;
+                    left: 100px;
+                    top: 125px;
+                    box-sizing:border-box;
+                    z-index: 10;
+                        
+        }
+            #red {
+                border: 5px solid red;
+                background-color: pink;
+               /*border-radius: 5px;*/
+                width: 200px;   
+                height: 200px;
+                position: relative;
+                left: 200px;
+                top: -40px;
+                box-sizing:border-box;
+                z-index: 1000;
+        }
+    </style>
+</head>
+
+    
+<body>
+    
+    <div id="playground">
+  
+        <div id="green"></div>
+        <div id= "blue"></div> 
+        <div id="red"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+</body>
+</html>
