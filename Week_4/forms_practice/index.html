@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+
+    
+<head>
+  <meta charset="utf-8">
+
+  <title> Forms </title>
+    
+    
+    <!-- CSS INTERNAL STYLESHEET -->
+    <style>
+        
+        #textstuff {
+            width: 200px;
+            height: 50px;
+            border-radius: 25px;
+            border: 1px solid grey;
+            padding: 10px;
+            font-size: 24px;
+            background-color: azure;
+            color: aqua;
+            text-shadow: 2px 2px #DDDDDD;
+        
+        }
+
+        
+        #textstuff::placeholder {
+            color: red;
+            font-size: 12px;
+        }
+         
+        
+    </style>
+    
+    <body>
+        
+        <form action="http://www.google.com">
+            
+            <label for="textstuff">Password: </label>
+            <input id="textstuff" type="text" placeholder="Your phone number"/>
+            <br>
+           
+            <label for="single">Single:</label>
+            <input id="single" type="radio" value="single" name="marital"/>
+            <br>
+          
+            <label for="married">Married:</label>
+            <input id="married" type="radio" value="married" name="marital"/>
+            <br>
+            
+            <label for="Divorced">Divorced:</label>
+            <input id="divorced" type="radio" value="divorced" name="marital"/>
+            <br>
+            
+            <label for="Decline">Decline to say:</label>
+            <input id="decline" type="radio" value="decline to say" name="marital"/>
+            <br>
+            
+            <input type="password" />
+            
+            <input type="number" />
+            
+            <input type="search" />
+            
+            <input type="submit" />
+            
+            <input type="reset" />
+            
+            <label for="color1">Black</label>
+            <input id="color1" type="checkbox" value="black" name="color1" />
+            
+            <label for="color2">White</label>
+            <input id="color2" type="checkbox" value="white" name="color2"/>
+            
+            <textarea cols="" rows="" maxlength="250" minlength="10" ></textarea>
+             
+            <button> Press here to have a birthday Party!</button>
+            
+            
+            <label for="location">Where do you live?</label>
+            <select id="location" name="location">
+                 <option value="sf">San Francisco</option>
+                 <option value="la">Los Angeles</option>
+                 <option value="tu">Tulare</option>
+            </select>
+            
+        </form> 
+
+        
+       
+                
+        <button>submit here!!</button>
+            
+        
+        
+    </body>
+    
+    </html>
+    
+    
