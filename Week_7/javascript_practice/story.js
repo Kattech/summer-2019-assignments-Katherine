@@ -1,5 +1,6 @@
 console.log (process.argv);
 
+var randomNumber = process.argv[2];
 
 
 
@@ -17,8 +18,8 @@ Math
 //console.log(randomNumber);
 
 //Math.floor rounds down, seal rounds up, round to .
-var randomNumber = Math.random() * 4;
-randomNumber = Math.floor(randomNumber);
+// var randomNumber = Math.random() * 4;
+// randomNumber = Math.floor(randomNumber);
 
 console.log(randomNumber);
 var vehicle;
